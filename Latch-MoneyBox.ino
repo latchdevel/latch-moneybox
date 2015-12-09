@@ -45,6 +45,7 @@ aJsonObject* jsonConfig  = NULL;
 
 Adafruit_Fingerprint finger = Adafruit_Fingerprint(&SerialV3);
 
+// Sustituir por AppId Y Secret personal
 char* latchAppId  = "hyZ-------------ceQu";
 char* latchSecret = "kBPf---------------------------8PZhJ68";
 
