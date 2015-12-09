@@ -1,0 +1,56 @@
+{
+    "moneybox": [
+        {
+            "id": 0,
+            "name": "Jorge, dedo indice derecho",
+            "latch_accounts": [
+                {
+                    "latch_id": "bHuR------------------------------------------------vDdaMHiVBHfJ"
+                },
+                {
+                    "latch_id": "wxGwp------------------------------------------------vFhsXhnnmEP"
+                }
+            ],
+            "operation": "OR",
+            "money": "112344"
+        },
+        {
+            "id": 1,
+            "name": "Jorge, dedo corazon derecho",
+            "latch_accounts": [
+                {
+                    "latch_id": "bHuRe------------------------------------------------vaMHiVBHfJ"
+                },
+                {
+                    "latch_id": "wxGwpq------------------------------------------------vFhsXhnnmEP"
+                }
+
+            ],
+            "operation": "AND",
+            "money": "113134"
+        },
+        {
+            "id": 3,
+            "name": "Eva pulgar izquierdo",
+            "latch_accounts": [
+                {
+                    "latch_id": "wxGwpq------------------------------------------------vhnnmEP"
+                }
+
+            ],
+            "operation": "AND",
+            "money": "1113"
+        },
+        {
+            "id": 22,
+            "name": "Eva, indice izq",
+            "latch_accounts": [
+                {
+                    "latch_id": "bHuResV------------------------------------------------viVBHfJ"
+                }
+            ],
+            "operation": "AND",
+            "money": "11224"
+        }
+    ]
+}
