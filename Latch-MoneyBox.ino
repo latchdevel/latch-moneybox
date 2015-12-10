@@ -20,7 +20,7 @@
 */
 
 #ident "HOST:172.26.0.137" // Utilizado para realizar el upload del sketch por SSH.
-#include <climits>
+
 #include <aJSON.h>   // https://github.com/interactive-matter/aJson en .cpp eliminar #include <pgmspace.h>
 #include <Adafruit_Fingerprint.h> // Para utilizar un virutal Serial Port en .h y.ccp eliminar #include <SoftwareSerial.h> y <util/delay.h>, cambiar el tipo SoftwareSerial por tipo Stream, eliminar begin() y delay() en el constructor
 #include "mb_json.h" // MoneyBox Json Library
@@ -121,7 +121,7 @@ boolean latch_status(aJsonObject* jsonConfig, int index){
           SerialV1.println("Estado del Latch off");
           if (latch_and(jsonConfig,index)){
             SerialV1.println("No es necesrio comprobar otros laches (AND con alguno en off)");
-            j=INT_MAX;
+            j=99; // or MAX_INT from <climits.h>
           }      
         }
     }else{
