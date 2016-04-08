@@ -1,0 +1,41 @@
+{
+    "credentials": {
+        "APP_ID": "*********jh*******", 
+        "SECRET_KEY": "********jtf**********"
+    }, 
+    "moneybox": [
+        {
+            "id": 5, 
+            "latch_accounts": [
+                {
+                    "latch_id": "******************CLrE*************************", 
+                    "name": "Eva", 
+                    "time": "Friday 01 April 2016 @ 09:59:05 "
+                }
+            ], 
+            "money": "112341", 
+            "name": "Jorge", 
+            "operation": "OR", 
+            "time": "Friday 01 April 2016 @ 09:49:50 "
+        }, 
+        {
+            "id": 10, 
+            "latch_accounts": [
+                {
+                    "latch_id": "***************************************************", 
+                    "name": "Jorge", 
+                    "time": "Friday 01 April 2016 @ 11:25:56 "
+                }, 
+                {
+                    "latch_id": "*******************************************", 
+                    "name": "Eva", 
+                    "time": "Friday 01 April 2016 @ 11:32:25 "
+                }
+            ], 
+            "money": "121212112341", 
+            "name": "Eva", 
+            "operation": "AND", 
+            "time": "Friday 01 April 2016 @ 11:23:36 "
+        }
+    ]
+}
